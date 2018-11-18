@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio | Your Name</title>
+  <title>Portfolio | Brett A. Davis, M.Ed.</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -11,47 +13,97 @@
 <body>
 
   <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Brett Davis</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
+      <div class="container-fluid">
+        <a href="index.html" id="logo">Brett A. Davis, M.Ed.</a>
+        <nav class="navbar navbar-light" id="nav-content" .navbar-collapse>
+          <a href="index.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
   </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
+  <div id="main-container" class="container-fluid" .table-responsive>
+    <section class="main-section" id="responsive">
       <h1>Portfolio</h1>
 
-      <div class="work">
-        <img src="assets/images/architecture-768432_640.jpg" alt="Word Guess">
-        
-        <h3>Word Guess</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/RRB.jpg" alt="RPG Game">
+  <div class="row">
 
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/selfie-413162_640.jpg" alt="Trivia Game">
+      <div class="col-sm-6">
+          <div class="card">
+              <div class="card-body">
 
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/rusted-1246518_640.jpg" alt="Rutgers Info Widget">
+                  <h5 class="card-title">Crystal Collector Game</h5>
 
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/musician-349790_640.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
+                  <p class="card-text" id="crystal4.jpg">
+                      <img src="assets/images/crystal4.jpg" alt="crystal" class= "img-fluid" style="max-width:30%;height:auto;"> 
+                  </p>
+                  <a href="https://github.com/bdavis127/unit-4-game">
+                    <p> Read the code here</p>
+                  </a>
+                  <a href="https://bdavis127.github.io/unit-4-game/" class="btn btn-primary">Click here to
+                    play</a>
+                  </a>
+              </div>
+          </div>
       </div>
 
-    </section>
+      <div class="col-sm-6">
+          <div class="card">
+              <div class="card-body">
+
+                  <h5 class="card-title">Band Aid</h5>
+
+                  <p class="card-text" id="dance">
+                      <img src="assets/images/flyingV.jpg" class= "img-fluid" style="max-width:45%;height:auto;">
+                  </p>
+                  <a href="https://github.com/bdavis127/GifTastic">
+                      <p>Read the code here</p>
+                  </a>
+                  <a href="https://bdavis127.github.io/GifTastic/" class="btn btn-primary">Click to see bands</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="row"> 
+
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+
+              <h5 class="card-title">Psychic Game</h5>
+
+              <p class="card-text" id="dance">
+                  <img src="assets/images/psychic.jpg" class= "img-fluid" style="max-width:45%;height:auto;">
+              </p>
+              <a href="https://github.com/bdavis127/Psychic-Game">
+                  <p>Read the code here</p>
+              </a>
+              <a href="https://bdavis127.github.io/Psychic-Game/" class="btn btn-primary">Click to play</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+  
+                <h5 class="card-title">GeoCuisine</h5>
+  
+                <p class="card-text" id="dance">
+                    <img src="assets/images/GeoCuisine.JPG" class= "img-fluid" style="max-width:45%;height:auto;">
+                </p>
+                <a href="https://github.com/bdavis127/fixingProject1">
+                    <p> Read the code here</p>
+                </a>
+                <a href="https://kat9513.github.io/fixingProject1/" class="btn btn-primary">Click to start cookin'</a>
+            </div>
+          </div>
+        </div>
+       
+
+       
   </div>
 
   <footer>
