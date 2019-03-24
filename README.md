@@ -1,6 +1,6 @@
 # Portfolio
 
-**LIRI** is a Language Interpretation and Recognition Interface. 
+My experience, projects and contact information. 
 
 
 ## Overview
