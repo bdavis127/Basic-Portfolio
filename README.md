@@ -32,32 +32,18 @@ To create a profile of myself regarding the following aspects:
 
 **Visual Studio Code** - text editor
 
-**Node.js**
+**HTML**
 
-**APIs:**
+**Bootstrap**
 
-  * **Spotify** (https://developer.spotify.com/)
-  * **OMDB** (http://www.omdbapi.com) 
-  * **Bands In Town** (http://www.artists.bandsintown.com/bandsintown-api)
-
-**NPM Packages:**
-
-  * **Node-Spotify-API** (https://www.npmjs.com/package/node-spotify-api)
-  * **Axios** (https://www.npmjs.com/package/axios)
-  * **Moment** (https://www.npmjs.com/package/moment)
-  * **DotEnv** (https://www.npmjs.com/package/dotenv)
-
-   
-## Prerequisites
-
-- Node.js - download the latest version of Node (https://nodejs.org/en/).
-
-- Make a new GitHub repository called **liri-node-app** and clone it to your computer.
-
-- Send requests using the `axios` package to the Bands in Town, Spotify and OMDB APIs.
+**CSS**
 
   
-## What Each Command Does
+## Portfolio Projects
+
+**Band-Aid**
+
+**Liri-Bot**
 
 **LIRI** searches **Bands in Town** for concerts, **Spotify** for songs, and **OMDB** for movies.
 
