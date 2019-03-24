@@ -5,20 +5,25 @@ My experience, projects and contact information.
 
 ## Overview
 
-LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives data in return.
+The different pages of my portfolio are as follows:
+
+  - About Me
+  - Resume
+  - Portfolio Projects
+  - Contact Information
 
 
 ## Challenge
 
-Use Node JS to create a LIRI bot, like iPhone's SIRI, but takes in commands through Language vs Speech using the following commands:
+To create a profile of myself regarding the following aspects:
 
-   * `concert-this`
+   * My story (the brief version)
 
-   * `spotify-this-song`
+   * My work history
 
-   * `movie-this`
+   * Projects I have completed
 
-   * `do-what-it-says`
+   * How to contact me 
    
    
 ## Tech
