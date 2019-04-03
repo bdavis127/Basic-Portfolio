@@ -22,6 +22,13 @@ body {
 
 /* general */
 
+.main-section4 {
+  height: 25%;
+  width: 40%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 .container {
   width: 100%;
   max-width: 960px;
@@ -399,3 +406,8 @@ input[type=submit] {
   max-width: 200px;
   /* background-color: aliceblue; */
 }
+
+/* .footer {
+  text-align: center;
+  margin-top: 1000px;
+} */
