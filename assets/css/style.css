@@ -65,13 +65,17 @@ h3 {
   font-size: 22px;
 }
 
+.h5 {
+  color: antiquewhite;
+}
+
 .main-section {
   float: center;
   width: 100%;
   max-width: 1000px;
   max-height: 0px;
   padding: 20px;
-  margin-top: 0 auto;
+  margin-top: 0 0 0 0;
   margin-left: 450px;
   background: transparent;
   border: 1px solid;
@@ -86,7 +90,7 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #fff;
-  background: #fff;
+  background: whitesmoke;
   border-bottom: 2px solid #ccc;
 }
 
@@ -176,7 +180,7 @@ h5 {
   max-width: 1200px;
   padding: 80px;
   margin: 0 auto;
-  background: #fff;
+  background: whitesmoke;
   border: 1px solid #ddd;
 }
 
@@ -318,13 +322,37 @@ h5 {
 }
 
 /* Style the counter cards */
+
+
+.card-deck {
+  width: 1300px;
+  height: 0px;
+  margin-left: 300px;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 420px auto 420px;
+  /* grid-column-gap: 5px;
+  grid-row-gap: 5px; */
+}
+
 .card {
+  width: 300px; 
+  height: 350px; 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 50px;
+  padding: 10px;
   text-align: center;
-  background-color: #f1f1f1;
-  /* margin: 00px; */
-  /* margin-top: 150px; */
+  
+  margin-top: 120px;
+  align-content: center;
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgb(0, 0, 0);
+  /* RGBa with 0.6 opacity */
+  background: rgba(0, 0, 0, 0.6);
+  color: antiquewhite;
+}  
+
+.card-title {
+  color: white;
 }
 
 /* Flexbox */
@@ -336,11 +364,7 @@ h5 {
   /* background-color: #1C4269; */
 /* } */ 
 
-.card {
-  width: 300px;  /* Or whatever */
-  height: 300px; /* Or whatever */
-  margin: auto;  /* Magic! */
-}
+
 
 .flex-container {
   display: flex;
