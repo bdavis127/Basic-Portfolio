@@ -21,12 +21,12 @@ html {
   background-size: cover;
 }
 
-/* .container-fluid {
+.container-fluid {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
   clear: both;
-} */
+} 
 
 /* heading tags */
 
@@ -184,8 +184,11 @@ footer {
 
 .card {
   position: relative;
+  float: left;
+  width: 274px;
   overflow: auto;
   margin: 20px 0 25px;
+  padding: 20px;
 }
 
 .card-body {
@@ -197,7 +200,7 @@ footer {
 .card-img-top {
   position: relative;
   width: 100%;
-  height: auto;
+  border: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -219,7 +222,7 @@ footer {
   }
 
   nav {
-    float: left;
+    float: clear;
   }
 }
 
