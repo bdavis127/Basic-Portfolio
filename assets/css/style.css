@@ -1,4 +1,4 @@
-/* global attributes*/
+/* global */
 
 * {
   box-sizing: border-box;
@@ -28,7 +28,7 @@ html {
   clear: both;
 } 
 
-/* heading tags */
+/* text */
 
 h1 {
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -44,8 +44,6 @@ h1 {
 .h5 {
   color: antiquewhite;
 }
-
-/* body text tags */
 
 p {
   margin-bottom: 20px;
@@ -68,7 +66,7 @@ p {
   height: auto;
 } */
 
-/* header attributes across all pages */
+/* header */
 
 #masthead {
   position: fixed;
@@ -101,6 +99,8 @@ p {
   text-decoration: none;
   background: #1C4269;
 }
+
+/* Navbar */
 
 nav {
   float: right;
@@ -157,7 +157,8 @@ footer {
   width: 100%;
   max-width: 1020px;
   margin: 0 auto;
-  clear: both;
+  /* clear: both; */
+  padding: 16px;
 }
 
 .main-section1 {
@@ -185,11 +186,28 @@ footer {
 .card {
   position: relative;
   float: left;
-  width: 274px;
+  width: 300px;
   overflow: auto;
-  margin: 20px 0 25px;
-  padding: 20px;
+  height: 250px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  align-content: center;
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgb(0, 0, 0);
+  /* RGBa with 0.6 opacity */
+  background: rgba(0, 0, 0, 0.6);
+}  
+
+.col-sm {
+  padding: -5px;
+  margin-right: 30px;
 }
+
+.card + .card {
+  margin: 0 0 0 60px;
+ }
 
 .card-body {
   position: relative;
@@ -204,16 +222,19 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  #main-container {
-    width: 100%;
-    padding: 20px;
+  #main-container2 {
+    width: 50%;
+    padding: 10px;
+    color: green;
+  }
+
+  #main-section2 {
+    width: 50%;
+    padding: 10px;
+    color: pink;
   }
 
   .card-deck {
-    width: 100%;
-  }
-
-  .card {
     width: 100%;
   }
 
@@ -227,43 +248,28 @@ footer {
 }
 
 #main-container2 {
-  align-content: center;
   padding-top: 1300px;
   min-height: calc(100vh - 70px);
-  padding: 80px;
-  width: 100%;
+  padding: 30px;
+  width: 3000px;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 200px;
-  margin-right: 2000px;
-  max-width: 1070px;
-  margin: 50px;
-  margin-top: 100px;
-  margin: 0 auto;
-  clear: both; 
-  float: center; 
-  background-color: yellow;  
+  background: yellow;
+  margin-left: 500px;
+  margin-right: 250px;
 }
 
 .main-section2 {
-  margin-top: 80px;
   float: center;
-  width: 100%;
-  max-width: 1200px; 
-  padding: 80px;
-  padding-top: 1300px;
+  width: 1000px;
+  max-width: 1000px;
+  padding: 40px;
   margin: 0 auto;
-  background: red;
+  margin-top: 20px;
+  background: blue;
   border: 1px solid #ddd;
-  min-height: calc(100vh - 70px);
-  padding: 30px; 
-  height: 100%;
-  max-width: 2000px; 
-  /* display: inline block; */ 
-  margin-left: 1200px;
-  margin-right: 1200px;
 } 
 
 /* contact page */
@@ -322,9 +328,9 @@ footer {
 /* Remove extra left and right margins, due to padding */
 .row {
   /* Top right bottom left margin  */
-  margin: 0px 100px 100px 500px;
-  width: 1000px;
-  padding: 80px;
+  margin: 0px 0px 0px 0px;
+  width: 0px;
+  padding: 0px;
   /* background: url("../images/abstract2.jpg");  */
 }
 
@@ -357,12 +363,12 @@ footer {
 }
 
 .card {
-  width: 300px; 
+  width: 200px; 
   height: 350px; 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 10px;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 60px;
   align-content: center;
   /* Fallback for web browsers that doesn't support RGBa */
   background: rgb(0, 0, 0);
