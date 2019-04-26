@@ -11,9 +11,6 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 200%;
-  }
-  
-  html { 
     background: url("../images/abstract2.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -71,12 +68,12 @@
     border-bottom: 2px solid #ccc;
   }
 
-  .container {
+  /* .container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     margin-bottom: 0%;
-  }
+  } */
 
   #logo {
     float: left;
@@ -111,7 +108,7 @@
 
   /* Portfolio Page */
 
-  .container1 {
+  /* .container1 {
     margin-left: 100px;
     margin-top: 500px;
     width: 100%;
@@ -119,14 +116,14 @@
     margin: 0 auto;
     clear: both;
     padding: 30px;
-  }
+  } */
 
   .card {
     position: relative;
     float: left;
-    width: 300px;
+    /* width: 300px; */
     overflow: auto;
-    height: 350px; 
+    /* height: 350px;  */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 10px;
     text-align: center;
@@ -148,7 +145,7 @@
     padding: 10px;
   }
 
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     #main-container2 {
       width: 50%;
       padding: 10px;
@@ -172,7 +169,7 @@
     nav {
       float: clear;
     }
-  }
+  } */
 
   /* footer attibutes */
 

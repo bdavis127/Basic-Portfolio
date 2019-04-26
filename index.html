@@ -4,55 +4,167 @@
 <head>
   <meta charset="UTF-8">
   <title>About | Your Name</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Brett A. Davis, M.Ed.</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="resume.html">Resume</a>
-        <a href="portfolio3.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand"><strong>
+        <h3>Brett A. Davis, M.Ed.</h3>
+      </strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
     </div>
-  </header>
+  </nav>
 
-  <div id="main-container1" class="container1">
-    <section class="main-section1">
+  <br>
+  <br>
+
+  <div class="container">
+    <div class="about">
       <h1>Introduction</h1>
 
       <img src="assets/images/Self_Image.jpg" class="auth-image" alt="Brett Davis">
 
       <p>
-        Hello, and welcome to my professional portfolio.  My education in web development has come primarily from self study as well as my recent
+        Hello, and welcome to my professional portfolio. My education in web development has come primarily from self
+        study as well as my recent
         graduation from Southern Methodist University's coding bootcamp in Dallas, Texas.
+        <p>
+          My current fascination is web development, most specifically UX Design. I enjoy working with the many
+          aspects of creation involved, such as
+          creating wireframes and prototypes leading up to a finished product based on specific user desires
+          collected through research.
+          I wish to apply my experience and knowledge I have gathered in order to further the abilities of users
+          who desire a positive online experience.
+          <p>
+            In today's digital environment, the online world is a busy place. Every business and service out there
+            is constantly demanding the
+            attention of potential customers. Proper use of interface design isn't just helpful anymore. It is
+            absolutely necessary. If you are in need of
+            UX design services, please feel free to reach out to me using my Contact page.
             <p>
-              My current fascination is web development, most specifically UX Design. I enjoy working with the many
-              aspects of creation involved, such as
-              creating wireframes and prototypes leading up to a finished product based on specific user desires
-              collected through research.
-              I wish to apply my experience and knowledge I have gathered in order to further the abilities of users
-              who desire a positive online experience.
-              <p>
-                In today's digital environment, the online world is a busy place. Every business and service out there
-                is constantly demanding the
-                attention of potential customers. Proper use of interface design isn't just helpful anymore. It is
-                absolutely necessary. If you are in need of
-                UX design services, please feel free to reach out to me using my Contact page. 
-                <p>
-    </section>
+    </div>
+    <br>
+    <div class="portfolio">
+      <div class="portfolio-title">
+        <h1><strong>Portfolio</strong></h1>
+      </div>
+      <br>
+      <div class="card-deck">
+        <div class="card">
+          <img src="assets/images/crystal.jpg" class="card-img-top" alt="Crystal Game">
+          <div class="card-body">
+            <h5 class="card-title">Crystal Game</h5>
+            <p class="card-text">Choose the correct crystal.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://bdavis127.github.io/Crystal-Game/" class="btn btn-secondary">Crystal Game</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+              additional content. This card has even longer content than the first to show that equal height
+              action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="card-deck">
+      <div class="card">
+        <img src="assets/images/crystal.jpg" class="card-img-top" alt="Crystal Game">
+        <div class="card-body">
+          <h5 class="card-title">Crystal Game</h5>
+          <p class="card-text">Choose the correct crystal.</p>
+        </div>
+        <div class="card-footer">
+          <a href="https://bdavis127.github.io/Crystal-Game/" class="btn btn-secondary">Crystal Game</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+            additional content. This card has even longer content than the first to show that equal height
+            action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
 
-  <footer>
-    <div class="container">
-      Copyright &copy;
-    </div>
-  </footer>
+
+  <div class="footer">
+    <p>
+      <h6>Brett A. Davis, M.Ed. | Copyright &copy; 2019</h6>
+    </p>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>

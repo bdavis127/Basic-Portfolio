@@ -9,11 +9,6 @@ body {
   font-size: 18px;
   line-height: 34px;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 200%;
-}
-
-html { 
   background: url("../images/abstract2.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -100,35 +95,22 @@ p {
   background: #1C4269;
 }
 
-/* Navbar */
-
-nav {
-  float: right;
-  margin-top: 25px;
-}
-
-nav a {
-  display: inline-block;
-  padding-left: 15px;
-  margin-left: 15px;
-  line-height: 18px;
-  color: #000501;
-  text-decoration: none;
-  border-left: 1px solid #efefef;
+.navbar {
+  color: blue;
 }
 
 /* footer attibutes */
 
-footer {
-  clear: both;
-  font-size: 12px;
+.footer {
+  /* clear: both; */
+  /* font-size: 12px; */
   color: #fff;
   text-align: center;
   background: #0B0C0E;
   border-top: 8px solid #4aaaa5;
-  height: 50px;
-  margin-top: 20px;
-  margin-bottom: 0px;
+  /* height: 50px; */
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 /* About Me */
@@ -141,7 +123,7 @@ footer {
   margin-right: 25px;
 }
 
-#main-container1 {
+/* #main-container1 {
   padding-top: 1300px;
   min-height: calc(100vh - 70px);
   padding: 30px;
@@ -158,10 +140,10 @@ footer {
   max-width: 1020px;
   margin: 0 auto;
   /* clear: both; */
-  padding: 16px;
-}
+  /* padding: 16px; */
+/* }  */
 
-.main-section1 {
+.about {
   margin-top: 50px;
   float: center;
   width: 100%;
@@ -174,12 +156,12 @@ footer {
 
 /* Portfolio page */ 
 
-#main-container {
+/* #main-container {
   width: 800px;
   padding: -500px;
-}
+} */
 
-.card-deck {
+/* .card-deck {
   width: 500px;
 }
 
@@ -195,44 +177,12 @@ footer {
   margin-top: 20px;
   align-content: center;
   /* Fallback for web browsers that doesn't support RGBa */
-  background: rgb(0, 0, 0);
+  /* background: rgb(0, 0, 0); */
   /* RGBa with 0.6 opacity */
-  background: rgba(0, 0, 0, 0.6);
-}  
+  /* background: rgba(0, 0, 0, 0.6);
+}   */ 
 
-.col-sm {
-  padding: -5px;
-  margin-right: 30px;
-}
-
-.card + .card {
-  margin: 0 0 0 60px;
- }
-
-.card-body {
-  position: relative;
-  width: 100%;
-  height: auto;
-}
-
-.card-img-top {
-  position: relative;
-  width: 100%;
-  border: none;
-}
-
-@media screen and (max-width: 768px) {
-  #main-container2 {
-    width: 50%;
-    padding: 10px;
-    color: green;
-  }
-
-  #main-section2 {
-    width: 50%;
-    padding: 10px;
-    color: pink;
-  }
+/* @media screen and (max-width: 768px) {
 
   .card-deck {
     width: 100%;
@@ -270,10 +220,10 @@ footer {
   margin-top: 20px;
   background: blue;
   border: 1px solid #ddd;
-} 
+}  */
 
 /* contact page */
-#main-container3 {
+/* #main-container3 {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
   padding: 300px;
@@ -294,7 +244,7 @@ footer {
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
-}
+} */
 
 /* .main-section4 {
   float: center;
@@ -326,49 +276,49 @@ footer {
 
 
 /* Remove extra left and right margins, due to padding */
-.row {
+/* .row { */
   /* Top right bottom left margin  */
-  margin: 0px 0px 0px 0px;
+  /* margin: 0px 0px 0px 0px;
   width: 0px;
   padding: 0px;
   /* background: url("../images/abstract2.jpg");  */
-}
+/* } */ 
 
 /* Clear floats after the columns */
-.row:after {
+/* .row:after {
   content: "";
   display: table;
-  clear: both;
+  clear: both; */
   /* margin-left: 90px; */
-}
+/* } */
 
 /* Responsive columns */
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .card-deck {
     width: 50%;
     display: block;
     margin-bottom: 20px;
   }
-}
+} */
 
 /* Style the counter cards */
 
-.card-deck {
+/* .card-deck {
   width: 1300px;
   height: 0px;
   margin-left: 300px;
   display: grid;
   grid-template-columns: 400px 400px 400px;
   grid-template-rows: 420px auto 420px;
-}
+} */
 
 .card {
-  width: 200px; 
-  height: 350px; 
+  /* width: 200px;  */
+  /* height: 350px;  */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 10px;
   text-align: center;
-  margin-top: 60px;
+  /* margin-top: 60px; */
   align-content: center;
   /* Fallback for web browsers that doesn't support RGBa */
   background: rgb(0, 0, 0);
@@ -390,15 +340,15 @@ footer {
   /* background-color: #1C4269; */
 /* } */ 
 
-.flex-container {
+/* .flex-container {
   display: flex;
   margin: 0px -50px -100px -140px;
   padding: 70px;
   max-width: 200px;
   /* background-color: aliceblue; */
-}
+/* } */
 
-.navbar4 {
+/* .navbar4 {
   grid-area: header;
 }
 .main-section4 {
@@ -408,12 +358,12 @@ footer {
   width: 25%;
   max-width: 200px;
   padding: 20px;
-  margin-left: 0px;
+  margin-left: 0px; */
   /* background: #fff; */
   /* border: 1px solid #ddd; */
-} 
+/* }  */ 
 
-.footer4 {
+/* .footer4 {
   grid-area: footer;
 }
 
@@ -431,4 +381,4 @@ footer {
   max-width: 500px;
   max-height: 400px;
   margin-left: 700px;
-}
+} */
