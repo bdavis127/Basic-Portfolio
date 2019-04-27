@@ -16,12 +16,12 @@ body {
   background-size: cover;
 }
 
-.container-fluid {
+/* .container-fluid {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
   clear: both;
-} 
+}  */
 
 /* text */
 
@@ -29,12 +29,32 @@ h1 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   font-size: 30px;
-  color: rgba(13, 98, 177, 0.959);
+  /* color: rgba(13, 98, 177, 0.959); */
+  color: white;
   margin-bottom: 10px;
   padding-bottom: 20px;
   line-height: 49px;
   border-bottom: 3px solid #ddd;
 }
+
+h2 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 30px;
+    /* color: rgba(13, 98, 177, 0.959); */
+    color: white;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    float: left;
+    width: 200px;
+    height: 45px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    background: #1C4269;
+  }
 
 .h5 {
   color: antiquewhite;
@@ -63,7 +83,7 @@ p {
 
 /* header */
 
-#masthead {
+/* #masthead {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -72,7 +92,7 @@ p {
   color: #fff;
   background: whitesmoke;
   border-bottom: 2px solid #ccc;
-}
+} */
 
 .container {
   width: 100%;
@@ -93,6 +113,24 @@ p {
   text-align: center;
   text-decoration: none;
   background: #1C4269;
+}
+
+#logo2 {
+  float: left;
+  width: 220px;
+  height: 45px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgb(0, 0, 0);
+  /* RGBa with 0.6 opacity */
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .navbar {
