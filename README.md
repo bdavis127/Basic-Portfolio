@@ -5,7 +5,7 @@ My experience, projects and contact information.
 
 ## Overview
 
-The different pages of my portfolio are as follows:
+The different sections of my portfolio are as follows:
 
   - Home
   - About
